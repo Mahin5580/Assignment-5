@@ -12,6 +12,9 @@ document.getElementById('btn-donation-noakhali').addEventListener('click', funct
         alert('Not enough Money');
         return;
     }
+    else{
+        document.getElementById('my_modal_5').showModal();
+    }
 
     const newDonation = donationNoakhali + inputNoakhali;
     document.getElementById('donation-noakhali').innerText = newDonation;

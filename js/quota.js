@@ -12,6 +12,9 @@ document.getElementById('btn-donation-quota').addEventListener('click',function(
         alert('Not enough Money');
         return;
     }
+    else{
+        document.getElementById('my_modal_5').showModal();
+    }
     
     const newDonation=donationQuota+inputQuota;
     document.getElementById('donation-quota').innerText=newDonation;
