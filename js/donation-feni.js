@@ -32,7 +32,7 @@ document.getElementById('btn-donation-feni').addEventListener('click',function()
     historySection.className = "space-y-4 mx-auto w-8/12 border-2 p-3 rounded-lg mb-4";
 
     historySection.innerHTML = `
-    <h2 class="font-bold text-xl">${inputFeni} Taka is Donate for Flood Relief in Feni,Bangladesh</h2>
+    <h2 class="font-bold text-xl">${inputFeni} Taka is Donated for donate for Flood Relief in Feni,Bangladesh</h2>
     <p class="opacity-70">Date : ${new Date().toLocaleDateString('en-GB')} ${new Date().toLocaleTimeString('en-GB')} GMT +0600 (Bangladesh Standard Time)</p>
     `;
     const historyContainer = document.getElementById('history-container');
